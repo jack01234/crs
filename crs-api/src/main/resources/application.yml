@@ -1,0 +1,16 @@
+server:
+  port: 8888
+  undertow:
+    io-threads: 16
+    worker-threads: 200
+    direct-buffers: true
+    buffer-size: 1MB
+spring:
+  application:
+    name: crs
+  profiles:
+    active: @profileActive@
+
+logging:
+  config: classpath:logback-spring.xml
+
