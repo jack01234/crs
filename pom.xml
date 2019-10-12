@@ -5,9 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.system.crs</groupId>
     <artifactId>crs</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>crs-api</module>
+        <module>crs-dal</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
